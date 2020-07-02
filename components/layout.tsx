@@ -33,6 +33,8 @@ export default function Layout(props) {
         <meta name="msapplication-TileColor" content="#252934" />
         <meta name="theme-color" content="#ffffff" />
 
+        <link rel="preload" href="/fonts/Raleway-Regular.ttf" as="font"/>
+
         <meta
           name="description"
           content="Hello, I'm Lee Jordan. I'm a full stack web developer with a love for DevOps"
