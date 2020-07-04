@@ -35,12 +35,12 @@ export default function Layout(props) {
 
         <link rel="preload" href="/fonts/Raleway-Regular.ttf" as="font"/>
 
-        <meta
-          name="description"
-          content="Hello, I'm Lee Jordan. I'm a full stack web developer with a love for DevOps"
-        />
-
-        <title>{title}</title>
+        <meta charSet="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5" />
+        <meta name="description" content="Description" />
+        <meta name="keywords" content="Keywords" />
+        <title>Page Title</title>
       </Head>
 
       <div className="container">{props.children}</div>
