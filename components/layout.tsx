@@ -33,14 +33,14 @@ export default function Layout(props) {
         <meta name="msapplication-TileColor" content="#252934" />
         <meta name="theme-color" content="#ffffff" />
 
-        <link rel="preload" href="/fonts/Raleway-Regular.ttf" as="font"/>
+        <link rel="preload" href="/fonts/Roboto-Light.ttf" as="font"/>
 
         <meta charSet="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5" />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
-        <title>Page Title</title>
+        <title>{ title }</title>
       </Head>
 
       <div className="container">{props.children}</div>

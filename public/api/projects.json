@@ -1,0 +1,18 @@
+{
+    "title": "Momus",
+    "description": "A simple yet cute placeholder site",
+    "link_title": "View",
+    "link": "https://placeholder.leejordan.dev",
+    "repo_url": "https://github.com/lee-jordan/momus",
+    "link_icon": "fa-eye",
+    "tags": [
+        {
+            "title": "HTML",
+            "icon": "fa-html5"
+        },
+        {
+            "title": "CSS",
+            "icon": "fa-css3-alt"
+        }
+    ]
+}

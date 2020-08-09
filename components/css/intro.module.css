@@ -1,10 +1,88 @@
-/**
- * Copyright (c) 2020 Lee Jordan
- * 
- * This software is released under the MIT License.
- * https://opensource.org/licenses/MIT
- */
+.intro_container {
+    background-color: #e9ecef;
+    padding: 3rem;
+    box-sizing: border-box;
+}
 
-.test {
-    background-color: pink;
+.intro_inner {
+    width: 1200px;
+    margin: auto;
+}
+
+.intro_title {
+    font-weight: 300;
+    line-height: 1.4em;
+    font-size: 3.5rem;
+    margin: 0.5rem 0;
+}
+
+.intro_subtitle {
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+.social_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 330px;
+}
+
+.social_icons > a {
+    text-decoration: none;
+}
+
+.social_icons > a:not(:first-of-type) {
+    /* margin-left: 8px; */
+}
+
+.social_button {
+    margin: 0.5rem 0;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 200ms ease-in-out
+}
+
+.social_button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.social_icon {
+    margin-right: 8px;
+}
+
+@media (max-width: 500px) {
+
+    .intro_title {
+        font-size: 2rem;
+    }
+
+    .social_icons {
+        justify-content: flex-start;
+    }
+
+    .social_name {
+        display: none;
+    }
+
+    .social_icon {
+        margin: 0;
+    }
+    
+    .social_button {
+        margin-right: 8px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .intro_inner {
+        width: 100%;
+    }
 }
